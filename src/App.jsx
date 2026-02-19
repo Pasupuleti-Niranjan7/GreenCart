@@ -18,78 +18,70 @@ const Orders = lazy(() => import("./components/Orders"));
 const Navbar = lazy(() => import("./Navbar"));
 const ScrollToTop = lazy(() => import("./ScrollToTop"));
 
-import img1 from "../public/trendingPlant1.png";
-import img2 from "../public/trendingPlant2.png";
-import img3 from "../public/trendingPlant3.png";
-import img4 from "../public/popularPlant1.png";
-import img5 from "../public/popularPlant2.png";
-import img6 from "../public/popularPlant3.png";
-import img7 from "../public/popularPlant5.png";
-import img8 from "../public/popularPlant6.png";
-import img9 from "../public/popularPlant7.png";
+// Image imports removed in favor of public folder paths
 
 function App() {
 
   const products = [
     {
       id: 1,
-      img: img2,
+      img: "/trendingPlant2.png",
       name: "Zen Bamboo Grove",
       type: "Indoor Plants",
       price: 850,
     },
     {
       id: 2,
-      img: img1,
+      img: "/trendingPlant1.png",
       name: "Tropical Breeze",
       type: "Indoor Plants",
       price: 750,
     },
     {
       id: 3,
-      img: img3,
+      img: "/trendingPlant3.png",
       name: "Starlight Succulent",
       type: "Indoor Plants",
       price: 920,
     },
     {
       id: 4,
-      img: img4,
+      img: "/popularPlant1.png",
       name: "Desert Bloom",
       type: "Indoor Plants",
       price: 650,
     },
     {
       id: 5,
-      img: img5,
+      img: "/popularPlant2.png",
       name: "Golden Glow",
       type: "Indoor Plants",
       price: 800,
     },
     {
       id: 6,
-      img: img6,
+      img: "/popularPlant3.png",
       name: "Silver Mist",
       type: "Indoor Plants",
       price: 920,
     },
     {
       id: 7,
-      img: img7,
+      img: "/popularPlant5.png",
       name: "Spider Plant",
       type: "Indoor Plants",
       price: 450,
     },
     {
       id: 8,
-      img: img8,
+      img: "/popularPlant6.png",
       name: "Lucky Bamboo Plant",
       type: "Indoor Plants",
       price: 350,
     },
     {
       id: 9,
-      img: img9,
+      img: "/popularPlant7.png",
       name: "Peace Lily",
       type: "Indoor Plants",
       price: 550,

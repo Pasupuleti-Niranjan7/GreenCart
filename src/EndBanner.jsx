@@ -2,7 +2,7 @@
 function EndBanner() {
   return (
     <>
-      <div className="bg-[url(image3.png)] bg-center bg-cover h-70 md:h-80 mt-8 mb-15 px-4 text-white flex flex-col items-center justify-center gap-2">
+      <div className="bg-[url(/image3.png)] bg-center bg-cover h-70 md:h-80 mt-8 mb-15 px-4 text-white flex flex-col items-center justify-center gap-2">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-center py-3 tracking-wide">
           Ready to Find your Perfect Plant?
         </h2>
